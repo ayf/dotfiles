@@ -4,5 +4,5 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
     echo "source $PWD/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 
-ln -s "$PWD/gitconfig" "$HOME/.gitconfig"
-ln -s "$PWD/zshrc" "$HOME/.zshrc"
+ln -sf "$PWD/gitconfig" "$HOME/.gitconfig"
+ln -sf "$PWD/zshrc" "$HOME/.zshrc"
